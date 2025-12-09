@@ -22,9 +22,9 @@ const helvetica = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Vipul Kumar • Developer",
+  title: "Jeevith thunderjoe • Developer",
   description:
-    "Vipul Kumar is a developer who creates beautiful and pixel perfect websites with zero effort in reviews.",
+    "jeevith thunderjoe is creative developer specializing in crafting machine learning powered web experiences and graphic design.",
 };
 
 export default function RootLayout({
