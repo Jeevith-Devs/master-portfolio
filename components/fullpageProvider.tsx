@@ -232,7 +232,6 @@ const FullpageProvider = ({ children }: { children: React.ReactNode }) => {
 
     textAnim__section2__down.current = gsap.from(
       "#my-text .line .innnerLine",
-      1.5,
       {
         y: "200%",
         opacity: 0,
@@ -241,6 +240,7 @@ const FullpageProvider = ({ children }: { children: React.ReactNode }) => {
         paused: true,
         delay: 0.25,
         stagger: 0.12,
+        duration: 1.5,
         ease: CustomEase.create("custom", "M0,0,C0.5,0,0,1,1,1"),
       },
     );
