@@ -12,11 +12,11 @@ export function HeroWrapper({}) {
         </div>
         <div className="animation__wrapper anime">
           <span className="animate__this animate__this1 left-0">
-            Webflow Developer<span className="yellow__it">.</span>
+            Graphic Designer <span className="yellow__it">.</span>
             <br />
           </span>
           <span className="animate__this animate__this2 left-0">
-            Next.js Developer<span className="yellow__it">.</span>
+            Machine learning<span className="yellow__it">.</span>
           </span>
           <span>&nbsp;</span>
         </div>
