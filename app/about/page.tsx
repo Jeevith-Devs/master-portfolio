@@ -14,17 +14,19 @@ import { Footer } from "@/components/contactSection/footer";
 
 export default function WorkPage() {
   const [delay, setDelay] = useState(15);
-  let timer: NodeJS.Timeout;
+  const timer = React.useRef<NodeJS.Timeout | null>(null);
   useEffect(() => {
     if (delay !== 0) {
-      timer = setTimeout(() => {
+      timer.current = setTimeout(() => {
         setDelay(delay - 1);
       }, 1000);
     } else {
       redirect(links.linkedin);
     }
 
-    return () => clearTimeout(timer);
+    return () => {
+      if (timer.current) clearTimeout(timer.current);
+    };
   }, [delay]);
 
   return (
