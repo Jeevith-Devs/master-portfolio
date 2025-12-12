@@ -36,20 +36,13 @@ export function Footer({ className }: { className?: string }) {
           links={[{ href: "", text: currentTime }]}
         />
         <FooterGroup
-          className="hidden md:block"
-          title="OPEN SOURCE"
-          isMagnetic={true}
-          links={[{ href: links.sourceCode, text: "View on GitHub" }]}
-        />
-
-        <FooterGroup
           title="SOCIALS"
           className="md:ml-auto"
           isMagnetic={true}
           links={[
             { href: links.email, text: "Email" },
-            { href: links.twitter, text: "Twitter" },
-            { href: links.telegram, text: "Telegram" },
+            { href: links.contact, text: "Mobile" },
+            { href: links.linkedin, text: "Linkedin" },
             { href: links.github, text: "Github" },
           ]}
         />
