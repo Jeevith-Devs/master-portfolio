@@ -16,13 +16,13 @@ const bgImagesData = [
   },
   {
     id: 2,
-    imgLink: "/svg_logo/attributes-logo.svg",
+    imgLink: "/svg_logo/py.svg",
     title: "",
     subtitle: "",
   },
   {
     id: 3,
-    imgLink: "/svg_logo/client-first-logo.svg",
+    imgLink: "/svg_logo/collab.svg",
     title: "",
     subtitle: "",
   },
@@ -46,7 +46,7 @@ const bgImagesData = [
   },
   {
     id: 7,
-    imgLink: "/svg_logo/mailchimp-logo.svg",
+    imgLink: "/svg_logo/flask.svg",
     title: "",
     subtitle: "",
   },
@@ -76,7 +76,7 @@ const bgImagesData = [
   },
   {
     id: 12,
-    imgLink: "/svg_logo/rive-logo.svg",
+    imgLink: "/svg_logo/jupiter.svg",
     title: "",
     subtitle: "",
   },
@@ -88,7 +88,19 @@ const bgImagesData = [
   },
   {
     id: 14,
-    imgLink: "/svg_logo/webflow-logo.svg",
+    imgLink: "/svg_logo/tensorflow.svg",
+    title: "",
+    subtitle: "",
+  },
+  {
+    id: 15,
+    imgLink: "/svg_logo/pytourch.svg",
+    title: "",
+    subtitle: "",
+  },
+  {
+    id: 16,
+    imgLink: "/svg_logo/skitlearn.svg",
     title: "",
     subtitle: "",
   },
