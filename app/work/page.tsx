@@ -36,7 +36,7 @@ const projectsData = [
     ),
     description: "React Site",
     link: "https://jeevx-studio.vercel.app/",
-    imageLink: "/img/projects/jeevxstudio.png",
+    imageLink: "/img/projects/jeevx-studio.png",
   },
   {
     title: (
