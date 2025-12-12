@@ -31,12 +31,12 @@ const projectsData = [
   {
     title: (
       <>
-        Andy PFP <br /> Generator
+        Jeevx Studio <br /> Business Site
       </>
     ),
-    description: "Next.js Site",
-    link: "https://generator.andytoken.com/",
-    imageLink: "/img/projects/3.avif",
+    description: "React Site",
+    link: "https://jeevx-studio.vercel.app/",
+    imageLink: "/img/projects/jeevxstudio.png",
   },
   {
     title: (
