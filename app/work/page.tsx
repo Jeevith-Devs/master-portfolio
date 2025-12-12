@@ -11,22 +11,22 @@ const projectsData = [
   {
     title: (
       <>
-        YieldStone <br /> Page
+        ATS Resume <br /> Checker
       </>
     ),
-    description: "Webflow Site",
-    link: "https://www.yieldstone.ai/",
-    imageLink: "/img/projects/1.avif",
+    description: "React Site",
+    link: "*",
+    imageLink: "/img/projects/resumewebsite.png",
   },
   {
     title: (
       <>
-        Simple Font <br /> Replacer
+        Object Tracking-and-Alexa-Home-Assistant <br /> With Alexa
       </>
     ),
-    description: "Figma Plugin",
-    link: "https://www.figma.com/community/plugin/1380643582596908985/simple-font-replacer",
-    imageLink: "/img/projects/2.avif",
+    description: "Internet of Things Project",
+    link: "https://github.com/Jeevith-Devs/Elderly-Object-Tracking-and-Alexa-Home-Assistant",
+    imageLink: "/img/projects/iot.png",
   },
   {
     title: (
@@ -41,12 +41,12 @@ const projectsData = [
   {
     title: (
       <>
-        PonkeSol <br /> Page
+        Hang man <br /> Game
       </>
     ),
-    description: "Webflow Site",
-    link: "https://ponkecoin-ninetyeight.webflow.io/",
-    imageLink: "/img/projects/4.avif",
+    description: "Simple WebSite",
+    link: "https://the-hang-man.vercel.app/",
+    imageLink: "/img/projects/hangman.png",
   },
 
   {
@@ -77,7 +77,7 @@ export default function WorkPage() {
       <Cursor />
       <HeaderNavigation />
       <FullpageProviderWork>
-        <div id="fullpage">
+        <>
           <div className="background">
             PROJECTS
             <br />
@@ -93,7 +93,7 @@ export default function WorkPage() {
               color={index % 2 !== 0 ? "Light" : "Dark"}
             />
           ))}
-        </div>
+        </>
       </FullpageProviderWork>
     </>
   );
