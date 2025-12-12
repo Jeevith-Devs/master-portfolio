@@ -14,7 +14,7 @@ const projectsData = [
         ATS Resume <br /> Checker
       </>
     ),
-    description: "React Site",
+    description: "AI Powered Full Stack Web Application",
     link: "*",
     imageLink: "/img/projects/resumewebsite.png",
   },
@@ -31,10 +31,10 @@ const projectsData = [
   {
     title: (
       <>
-        Jeevx Studio <br /> Business Site
+        Jeevx Studio
       </>
     ),
-    description: "React Site",
+    description: "React.js Business Site",
     link: "https://jeevx-studio.vercel.app/",
     imageLink: "/img/projects/jeevx-studio.png",
   },
@@ -44,7 +44,7 @@ const projectsData = [
         Hang man <br /> Game
       </>
     ),
-    description: "Simple WebSite",
+    description: "Simple Game WebSite",
     link: "https://the-hang-man.vercel.app/",
     imageLink: "/img/projects/hangman.png",
   },
