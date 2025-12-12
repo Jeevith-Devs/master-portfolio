@@ -52,12 +52,12 @@ const projectsData = [
   {
     title: (
       <>
-        AmanFX <br /> Portfolio
+         Prediction  <br /> model
       </>
     ),
-    description: "Webflow Site",
-    link: "https://amanfx.webflow.io/",
-    imageLink: "/img/projects/5.avif",
+    description: "Machine Learning model",
+    link: "https://github.com/Jeevith-Devs/Dynamic-Employee-Productivity-and-Burnout-Prediction-System-using-Machine-Learning",
+    imageLink: "/img/projects/burnout.png",
   },
   {
     title: (
