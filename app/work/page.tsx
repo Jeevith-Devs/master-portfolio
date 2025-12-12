@@ -21,7 +21,7 @@ const projectsData = [
   {
     title: (
       <>
-        Object Tracking-and-Alexa-Home-Assistant <br /> With Alexa
+        Object Tracking <br /> With Alexa
       </>
     ),
     description: "Internet of Things Project",
