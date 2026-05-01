@@ -6,17 +6,18 @@ import FullpageProviderWork from "@/components/fullpageProviderWork";
 import { Cursor } from "@/components/cursor";
 import { HeaderNavigation } from "@/components/headerNavigation";
 import { WorkSection } from "@/components/workPage/workSection";
+import { SeeMoreSection } from "@/components/workPage/seeMoreSection";
 
 const projectsData = [
   {
     title: (
       <>
-        ATS Resume <br /> Checker
+        Esperanza <br /> Website
       </>
     ),
-    description: "AI Powered Full Stack Web Application",
-    link: "*",
-    imageLink: "/img/projects/resumewebsite.png",
+    description: "College Dynamic Cultural Website",
+    link: "https://esperanza2k26.vercel.app/",
+    imageLink: "/img/projects/esperanza.png",
   },
   {
     title: (
@@ -52,7 +53,7 @@ const projectsData = [
   {
     title: (
       <>
-         Prediction  <br /> model
+        Prediction  <br /> model
       </>
     ),
     description: "Machine Learning model",
@@ -70,6 +71,7 @@ const projectsData = [
     imageLink: "/img/projects/6.avif",
   },
 ];
+
 //test
 export default function WorkPage() {
   return (
@@ -89,10 +91,11 @@ export default function WorkPage() {
               key={index}
               item={item}
               index={index}
-              length={projectsData.length}
+              length={projectsData.length + 1}
               color={index % 2 !== 0 ? "Light" : "Dark"}
             />
           ))}
+          <SeeMoreSection totalCount={projectsData.length + 1} />
         </>
       </FullpageProviderWork>
     </>

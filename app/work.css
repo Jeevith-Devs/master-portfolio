@@ -339,3 +339,95 @@ ul {
     height: 32px;
   }
 }
+
+/* See More / work__cto button */
+:root {
+  --colorLight: #fff;
+  --primary-color2: rgba(255,255,255,0.3);
+}
+
+.yellow__it {
+  color: hsl(54, 100%, 50%);
+}
+
+.work__cto {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.work__cto div {
+  border: 2px solid var(--primary-color2);
+}
+
+.work__cto div.center {
+  padding: 0.2em 1em;
+  font-size: 10px;
+  letter-spacing: 1.05px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--colorLight);
+  background-color: hsl(0deg 0% 100% / 10%);
+  border-radius: 8px;
+}
+
+.work__cto div.left,
+.work__cto div.right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.work__cto div.left {
+  width: 0px;
+  border-right-width: 0px;
+  border-left-width: 0px;
+  background-color: var(--primary-color2);
+  transition: width 0.5s cubic-bezier(0.7, -0.01, 0, 1.01) 0.05s,
+    border-left-width 0.05s linear 0.38s;
+}
+
+.work__cto div.right {
+  width: 44.19px;
+  border-left-width: 0px;
+  transition: width 0.5s cubic-bezier(0.7, -0.01, 0, 1.01) 0.15s,
+    border-right-width 0.05s linear 0.38s;
+}
+
+.work__cto div.right svg {
+  transform: translateX(0%);
+  transition: transform 0.5s cubic-bezier(0.3, 0, 0, 1) 0.29s;
+}
+
+.work__cto div.left svg {
+  transform: translateX(-100%);
+  transition: transform 0.5s cubic-bezier(0.3, 0, 0, 1) 0s;
+}
+
+.work__cto:hover div.right {
+  width: 0px;
+  border-right-width: 0px;
+  transition: width 0.5s cubic-bezier(0.7, -0.01, 0, 1.01) 0.05s,
+    border-right-width 0.05s linear 0.38s;
+}
+
+.work__cto:hover div.left {
+  width: 44.19px;
+  border-left-width: 2px;
+  transition: width 0.5s cubic-bezier(0.7, -0.01, 0, 1.01) 0.15s,
+    border-left-width 0.05s linear 0.38s;
+}
+
+.work__cto:hover div.right svg {
+  transform: translateX(100%);
+  transition: transform 0.5s cubic-bezier(0.3, 0, 0, 1) 0s;
+}
+
+.work__cto:hover div.left svg {
+  transform: translateX(0%);
+  transition: transform 0.5s cubic-bezier(0.3, 0, 0, 1) 0.29s;
+}
